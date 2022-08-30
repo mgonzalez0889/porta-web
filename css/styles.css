@@ -1,0 +1,32 @@
+:root {
+    --primario: #e1e1e1;
+    --fuentePrincipal: 'Open Sans';
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: var(--fuentePrincipal);
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+[class*="contenedor"] {
+    max-width: 120rem;
+    margin: 0 auto;
+    width: 90%;
+}
