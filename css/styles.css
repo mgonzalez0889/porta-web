@@ -1,6 +1,7 @@
 :root {
     --primario: #e1e1e1;
     --fuentePrincipal: 'Open Sans';
+    --blanco: #fff;
 }
 
 html {
@@ -18,6 +19,7 @@ body {
     font-family: var(--fuentePrincipal);
     font-size: 2rem;
     line-height: 1.5;
+    background-color: rgba(15, 15, 56, 0.877);
 }
 
 img {
@@ -29,4 +31,51 @@ img {
     max-width: 120rem;
     margin: 0 auto;
     width: 90%;
+}
+
+.header {
+    padding: 5rem 0;
+}
+
+.header__barra {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;    
+}
+
+.navegacion {
+    display: flex;
+    gap: 4rem;
+}
+
+.navegacion__link {
+    text-decoration: none;
+    color: var(--blanco);
+}
+
+/* Perfil */
+
+.perfil {
+    width: 60%;
+}
+
+.perfil__heading {
+    font-size: 6rem;
+    color: var(--blanco);
+    font-weight: 700;
+}
+
+.perfil__descripcion {
+    font-size: 3rem;
+    color: var(--blanco);
+    font-weight: 400;
+}
+
+.perfil__link {
+    display: inline-block;
+    text-decoration: none;    
+    background-color: var(--blanco);
+    padding: 1.5rem 5rem;
+    border-radius: 3rem;
+    font-size: 1.5rem;
 }
