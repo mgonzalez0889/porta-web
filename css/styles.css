@@ -13,13 +13,14 @@ html {
 *:before,
 *:after {
     box-sizing: inherit;
+    /* outline: 1px solid red; */
 }
 
 body {
     font-family: var(--fuentePrincipal);
     font-size: 2rem;
     line-height: 1.5;
-    background-color: rgba(15, 15, 56, 0.877);
+    background-color: rgba(0, 0, 0, 0.911);
 }
 
 img {
@@ -40,7 +41,17 @@ img {
 .header__barra {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;    
+    justify-content: space-between;    
+}
+
+.header__imagen {
+    width: 5rem;     
+}
+
+.header__perfil {
+    width: 100%;        
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .navegacion {
@@ -78,4 +89,39 @@ img {
     padding: 1.5rem 5rem;
     border-radius: 3rem;
     font-size: 1.5rem;
+}
+
+/* Footer */
+
+.footer__heading {
+    color: var(--blanco);
+    font-size: 2rem;
+    text-transform: uppercase; 
+}
+
+.footer__navegacion {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: var(--blanco);
+}
+
+/* Redes sociales */
+
+.media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.media__copyright {
+    color: var(--blanco);
+}
+
+.media__link {
+    text-decoration: none;
+    color: var(--blanco);
 }
