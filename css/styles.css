@@ -150,7 +150,56 @@ img {
 
 .about__description {
     color: var(--primario);
-    font-size: 1.8rem;
+    font-size: 1.6rem;
+}
+
+.tecnologies__grid {
+    display: flex;
+    flex-direction: row;    
+    margin-top: 4rem;
+}
+
+.tecnologies__image {
+    width: 20rem;    
+    border-radius: 1.5rem;
+    border: 1px solid var(--secundario);
+    transition-property: background-color;
+    transition-duration: 300ms;
+}
+
+.tecnologies__image:hover {
+    background-color: var(--secundario);        
+}
+
+.tecnologies__img {
+    width: 50%;
+    margin: 0 auto;  
+}
+
+.projects__heading {
+    color: var(--secundario);
+    text-align: center;
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 6rem;
+    position: relative;
+}
+
+.projects__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.project {
+    grid-column: 2/4;
+}
+
+.project__subtitle {
+    color: #fff;
+}
+
+.project__descripcion {
+    color: #fff;
 }
 
 
