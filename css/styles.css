@@ -194,6 +194,7 @@ img {
 
 .project {
     grid-column: 2/4;
+    margin-bottom: 3rem;
 }
 
 .project__link {
@@ -203,6 +204,13 @@ img {
     padding: .7rem 5rem;
     text-decoration: none;
     color: var(--blanco);
+}
+
+.project__link:hover {
+    background-color: var(--tertiary);
+    color: var(--secundario);
+    transition: background-color;
+    transition-duration: 300ms;
 }
 
 /*
@@ -242,12 +250,16 @@ img {
     color: var(--blanco);
 }
 
-/* Redes sociales */
+/* Contacto y Redes  sociales */
 
 .media {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: end;
+}
+
+.media__title {
+    color: var(--blanco);    
 }
 
 .media__social {
@@ -255,8 +267,14 @@ img {
     gap: 2rem;
 }
 
-.media__copyright {
+.copyright {
+    text-align: center;
+    margin: 0 auto;
     color: var(--blanco);
+    border-top: 2px solid var(--blanco);
+    padding: 1rem;
+    max-width: 120rem;
+    font-size: 1.4rem;
 }
 
 .media__link {
@@ -275,12 +293,30 @@ img {
     background-image: url(/images/svg/github.svg);
 }
 
+[href*="github"]:hover:before {    
+    background-image: url(/images/svg/github-blue.svg);
+    transition: background-color;
+    transition-duration: 300ms;
+}
+
 [href*="twitter"]::before {
     background-image: url(/images/svg/x.svg);
 }
 
+[href*="twitter"]:hover:before {    
+    background-image: url(/images/svg/x-blue.svg);
+    transition: background-color;
+    transition-duration: 300ms;
+}
+
 [href*="linkedin"]::before {
     background-image: url(/images/svg/linkedin.svg);
+}
+
+[href*="linkedin"]:hover:before {    
+    background-image: url(/images/svg/linkedin-blue.svg);
+    transition: background-color;
+    transition-duration: 300ms;
 }
 
 
