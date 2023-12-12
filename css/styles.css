@@ -234,6 +234,10 @@ img {
 
 /* Footer */
 
+.footer {
+    padding: 10rem 0 0 0;
+}
+
 .footer__heading {
     color: var(--blanco);
     font-size: 2rem;
