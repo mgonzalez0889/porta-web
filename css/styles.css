@@ -48,6 +48,12 @@ img {
 
 .header__imagen {
     width: 5rem;     
+    transition-property: transform;
+    transition-duration: 300ms;
+}
+
+.header__imagen:hover {
+    transform: rotate(8deg) scale(1.1);
 }
 
 .header__perfil {
@@ -70,13 +76,17 @@ img {
 /* Perfil */
 
 .perfil {
-    width: 60%;
+    width: 60%;    
+}
+
+.perfil__text {
+    color: var(--secundario);
 }
 
 .perfil__heading {
     font-size: 6rem;
     color: var(--blanco);
-    font-weight: 700;
+    font-weight: 700;    
 }
 
 .perfil__descripcion {
@@ -94,6 +104,49 @@ img {
     font-size: 1.5rem;
     color: var(--blanco);
 }
+
+/* Actually */
+
+.actually {
+    padding-top: 10rem;
+}
+
+.actually__heading {
+    color: var(--secundario);
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 6rem;
+    position: relative;
+}
+
+.actually__heading::before {
+    content: '';
+    display: inline-block;
+    width: 3rem;    
+    border: 1px solid var(--secundario);    
+    margin-right: .5rem;
+}
+
+.actually__heading::after {
+    content: '';
+    display: inline-block;
+    width: 3rem;    
+    border: 1px solid var(--secundario);    
+    margin-left: .5rem;
+}
+
+.actually__grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.actually__link {
+    text-decoration: none;
+    color: var(--secundario);
+    font-weight: 700;
+}
+
+
 
 /* About */
 
@@ -155,6 +208,12 @@ img {
     font-size: 1.6rem;
 }
 
+/* Tecnologies */
+
+.tecnologies {
+    padding-top: 10rem;
+}
+
 .tecnologies__grid {
     display: flex;
     flex-direction: row;    
@@ -176,6 +235,10 @@ img {
 .tecnologies__img {
     width: 50%;
     margin: 0 auto;  
+}
+
+.projects {
+    padding-top: 10rem;
 }
 
 .projects__heading {
