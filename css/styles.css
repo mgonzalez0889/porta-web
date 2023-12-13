@@ -73,6 +73,12 @@ img {
     font-size: 1.7rem;
 }
 
+.navegacion__link:hover {
+    color: var(--secundario);
+    transition: color;
+    transition-duration: 300ms;
+}
+
 /* Perfil */
 
 .perfil {
