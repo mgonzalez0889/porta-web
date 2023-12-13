@@ -221,8 +221,9 @@ img {
 }
 
 .tecnologies__grid {
-    display: flex;
-    flex-direction: row;    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     margin-top: 4rem;
 }
 
@@ -254,6 +255,22 @@ img {
     font-size: 2.2rem;
     margin-bottom: 6rem;
     position: relative;
+}
+
+.projects__heading::before {
+    content: '';
+    display: inline-block;
+    width: 3rem;    
+    border: 1px solid var(--secundario);    
+    margin-right: .5rem;
+}
+
+.projects__heading::after {
+    content: '';
+    display: inline-block;
+    width: 3rem;    
+    border: 1px solid var(--secundario);    
+    margin-left: .5rem;
 }
 
 .projects__grid {
