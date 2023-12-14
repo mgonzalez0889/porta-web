@@ -283,7 +283,32 @@ img {
 /* Tecnologies */
 
 .tecnologies {
-    padding-top: 10rem;
+    padding-top: 5rem;
+}
+
+.tecnologies__heading {
+    color: var(--secundario);
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 6rem;
+    position: relative;
+    padding: 10rem 0 0 0;
+}
+
+.tecnologies__heading::before {
+    content: '';
+    display: inline-block;
+    width: 3rem;    
+    border: 1px solid var(--secundario);    
+    margin-right: .5rem;
+}
+
+.tecnologies__heading::after {
+    content: '';
+    display: inline-block;
+    width: 3rem;    
+    border: 1px solid var(--secundario);    
+    margin-left: .5rem;
 }
 
 .tecnologies__grid {
