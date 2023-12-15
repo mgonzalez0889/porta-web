@@ -85,8 +85,11 @@ img {
 /* Perfil */
 
 .perfil {
-    width: 50%;      
-    margin: auto;
+    width: 100%;      
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
 }
 
 @media (min-width: 768px) { 
@@ -470,7 +473,7 @@ img {
 /* Footer */
 
 .footer {
-    padding: 5rem 0 0 0;
+    padding: 3rem 0 0 0;
 }
 
 @media (min-width: 768px) { 
@@ -507,8 +510,17 @@ img {
 
 .media {
     display: flex;
-    justify-content: space-between;
-    align-items: end;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 992px) { 
+    .media {
+        justify-content: space-between;
+        align-items: end;
+
+    }
+      
 }
 
 .media__title {
