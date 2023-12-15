@@ -118,6 +118,11 @@ img {
 }
 
 @media (min-width: 768px) { 
+
+    .perfil {
+        padding-top: 20rem;
+    }
+
     .perfil__heading {
         font-size: 5rem;
         text-align: left;
@@ -125,6 +130,10 @@ img {
 }
 
 @media (min-width: 992px) { 
+    .perfil {
+        padding: 10rem 0 0 0;
+    }
+
     .perfil__heading {
         font-size: 6rem;
         text-align: left;
@@ -148,8 +157,7 @@ img {
 
 @media (min-width: 992px) { 
     .perfil__descripcion {
-        font-size: 3rem;
-        text-align: left;
+        font-size: 3rem;        
     }
       
 }
@@ -467,14 +475,14 @@ img {
 
 @media (min-width: 768px) { 
     .footer {
-        padding: 38rem 0 0 0;
+        padding: 18rem 0 0 0;
     }
       
 }
 
 @media (min-width: 992px) { 
     .footer {
-        padding: 16rem 0 0 0;
+        padding: 7rem 0 0 0;
 
     }      
 }
