@@ -223,7 +223,7 @@ img {
 /* About */
 
 .about {
-    padding-top: 10rem;
+
 }
 
 .about__grid {
@@ -282,10 +282,6 @@ img {
 
 /* Tecnologies */
 
-.tecnologies {
-    padding-top: 5rem;
-}
-
 .tecnologies__heading {
     color: var(--secundario);
     text-align: center;
@@ -333,10 +329,6 @@ img {
 .tecnologies__img {
     width: 50%;
     margin: 0 auto;  
-}
-
-.projects {
-    padding-top: 10rem;
 }
 
 .projects__heading {
