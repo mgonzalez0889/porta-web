@@ -390,7 +390,7 @@ img {
 
 .project__link::after {
     content: '';
-    background-image: url(/images/svg/arrow-right.svg);
+    background-image: url(images/svg/arrow-right.svg);
     background-repeat: no-repeat;
     padding: 1.5rem;    
     background-position-y: 1.6rem;
@@ -401,7 +401,7 @@ img {
 
 .project__link:hover::after {
     content: '';
-    background-image: url(/images/svg/arrow-right-blue.svg);        
+    background-image: url(images/svg/arrow-right-blue.svg);        
 }
 
 .project__subtitle {
@@ -475,31 +475,31 @@ img {
 }
 
 [href*="github"]::before {
-    background-image: url(/images/svg/github.svg);
+    background-image: url(images/svg/github.svg);
 }
 
 [href*="github"]:hover:before {    
-    background-image: url(/images/svg/github-blue.svg);
+    background-image: url(images/svg/github-blue.svg);
     transition: background-color;
     transition-duration: 300ms;
 }
 
 [href*="twitter"]::before {
-    background-image: url(/images/svg/x.svg);
+    background-image: url(images/svg/x.svg);
 }
 
 [href*="twitter"]:hover:before {    
-    background-image: url(/images/svg/x-blue.svg);
+    background-image: url(images/svg/x-blue.svg);
     transition: background-color;
     transition-duration: 300ms;
 }
 
 [href*="linkedin"]::before {
-    background-image: url(/images/svg/linkedin.svg);
+    background-image: url(images/svg/linkedin.svg);
 }
 
 [href*="linkedin"]:hover:before {    
-    background-image: url(/images/svg/linkedin-blue.svg);
+    background-image: url(images/svg/linkedin-blue.svg);
     transition: background-color;
     transition-duration: 300ms;
 }
