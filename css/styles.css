@@ -81,10 +81,6 @@ img {
     transition-duration: 300ms;
 }
 
-.active {
-    color: var(--secundario);
-}
-
 
 /* Perfil */
 
@@ -466,7 +462,21 @@ img {
 /* Footer */
 
 .footer {
-    padding: 10rem 0 0 0;
+    padding: 5rem 0 0 0;
+}
+
+@media (min-width: 768px) { 
+    .footer {
+        padding: 38rem 0 0 0;
+    }
+      
+}
+
+@media (min-width: 992px) { 
+    .footer {
+        padding: 16rem 0 0 0;
+
+    }      
 }
 
 .footer__heading {
