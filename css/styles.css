@@ -89,23 +89,73 @@ img {
 /* Perfil */
 
 .perfil {
-    width: 60%;    
+    width: 50%;      
+    margin: auto;
 }
+
+@media (min-width: 768px) { 
+    .perfil {
+        width: 90%; 
+        margin: 0;       
+    }
+      
+}
+
+@media (min-width: 992px) { 
+    .perfil {
+        width: 60%;
+        margin: 0;
+    }
+      
+}
+
 
 .perfil__text {
     color: var(--secundario);
 }
 
 .perfil__heading {
-    font-size: 6rem;
+    font-size: 3.5rem;
     color: var(--blanco);
-    font-weight: 700;    
+    font-weight: 700;   
+    text-align: center; 
+}
+
+@media (min-width: 768px) { 
+    .perfil__heading {
+        font-size: 5rem;
+        text-align: left;
+    }      
+}
+
+@media (min-width: 992px) { 
+    .perfil__heading {
+        font-size: 6rem;
+        text-align: left;
+    }
+      
 }
 
 .perfil__descripcion {
-    font-size: 3rem;
+    font-size: 1.5rem;
     color: var(--blanco);
     font-weight: 400;
+    text-align: center;
+}
+
+@media (min-width: 768px) { 
+    .perfil__descripcion {
+        text-align: left;
+    }
+      
+}
+
+@media (min-width: 992px) { 
+    .perfil__descripcion {
+        font-size: 3rem;
+        text-align: left;
+    }
+      
 }
 
 .perfil__link {
