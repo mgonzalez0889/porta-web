@@ -89,6 +89,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-top: 15rem;
     
 }
 
@@ -473,7 +474,7 @@ img {
 /* Footer */
 
 .footer {
-    padding: 3rem 0 0 0;
+    padding: 4rem 0 0 0;
 }
 
 @media (min-width: 768px) { 
