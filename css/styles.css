@@ -583,12 +583,12 @@ img {
 /* Footer */
 
 .footer {
-    padding: 12rem 0 0 0;
+    padding: 9rem 0 0 0;
 }
 
 @media (min-width: 384px) { 
     .footer {
-        padding: 11rem 0 0 0;
+        padding: 8rem 0 0 0;
     }
       
 }
