@@ -402,10 +402,21 @@ img {
 }
 
 .about__grid {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-auto-flow: dense;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    
+}
+
+@media (min-width: 992px) { 
+
+    .about__grid {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-auto-flow: dense;
+        align-items: center;
+    }
+      
 }
 
 .about__image {
