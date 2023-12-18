@@ -150,11 +150,13 @@ img {
     color: var(--blanco);
     font-weight: 400;
     text-align: center;
+    margin: 0;
 }
 
 @media (min-width: 768px) { 
     .perfil__descripcion {
         text-align: left;
+        font-size: 2rem;
     }
       
 }
