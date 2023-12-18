@@ -290,7 +290,14 @@ img {
 /* Actually */
 
 .actually {
-    padding-top: 10rem;
+    padding-top: 5rem;
+}
+
+@media (min-width: 768px) { 
+    .actually {
+        padding-top: 5rem;
+    }
+      
 }
 
 .actually__heading {
@@ -331,7 +338,14 @@ img {
 /* Experience */
 
 .experience {
-    padding-top: 10rem;
+    padding-top: 5rem;
+}
+
+@media (min-width: 768px) { 
+    .experience {
+        padding-top: 5rem;
+    }
+      
 }
 
 .experience__heading {
