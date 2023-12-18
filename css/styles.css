@@ -338,7 +338,7 @@ img {
 /* Experience */
 
 .experience {
-    padding-top: 5rem;
+    padding-top: 3rem;
 }
 
 @media (min-width: 768px) { 
@@ -375,6 +375,15 @@ img {
 .experience__subheading {
     color: var(--tertiary);
     font-weight: 300;
+    font-size: 1.6rem;
+}
+
+@media (min-width: 768px) { 
+
+    .experience__subheading {
+        font-size: 2rem;
+    }
+      
 }
 
 .experience__grid {
@@ -391,6 +400,14 @@ img {
     color: var(--secundario);
     font-weight: 700;
     margin: 0;
+    font-size: 1.6rem;
+}
+
+@media (min-width: 768px) { 
+    .experience__subtitle {
+        font-size: 2rem;
+    }
+      
 }
 
 
