@@ -376,6 +376,8 @@ img {
     color: var(--tertiary);
     font-weight: 300;
     font-size: 1.6rem;
+    border-bottom: 2px solid var(--machingray);
+    padding: 0 0 1.2rem 0;
 }
 
 @media (min-width: 768px) { 
@@ -387,8 +389,26 @@ img {
 }
 
 .experience__grid {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+@media (min-width: 384px) { 
+
+    .experience__grid {
+        display: flex;        
+    }  
+      
+}
+
+@media (min-width: 992px) { 
+
+    .experience__grid {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+      
 }
 
 .experience__title {
