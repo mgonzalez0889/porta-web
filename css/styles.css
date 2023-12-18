@@ -96,7 +96,7 @@ img {
 
 @media (min-width: 384px) { 
     .perfil {
-        padding-top: 4rem;
+        padding-top: 25rem;
     }
       
 }
@@ -489,7 +489,7 @@ img {
 
 @media (min-width: 384px) { 
     .footer {
-        padding: 0 0 0 0;
+        padding: 12rem 0 0 0;
     }
       
 }
