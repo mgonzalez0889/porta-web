@@ -383,7 +383,7 @@ img {
 @media (min-width: 768px) { 
 
     .experience__subheading {
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
       
 }
@@ -416,6 +416,13 @@ img {
     margin: 0;
 }
 
+@media (min-width: 992px) { 
+    .experience__title {
+        font-size: 2rem;
+    }
+      
+}
+
 .experience__subtitle {
     color: var(--secundario);
     font-weight: 700;
@@ -433,14 +440,33 @@ img {
 
 .experience__date {
     color: var(--tertiary);
-    margin: 0 0 5rem 0;
+    margin: 0 0 2rem 0;
     font-size: 1.5rem;
+}
+
+@media (min-width: 992px) { 
+    .experience__date {
+        margin: 0 0 5rem 0;
+
+    }
+      
 }
 
 .experience__description {
     color: var(--tertiary);
-    border-top: 2px solid var(--machingray);
-    padding: 1.5rem 0 0 0;
+    border-bottom: 2px solid var(--machingray);
+    padding: 0 0 1.5rem 0;
+    font-size: 1.6rem;
+}
+
+
+@media (min-width: 992px) { 
+    .experience__description {
+        border-top: 2px solid var(--machingray);
+        border-bottom: none;
+        padding: 1.5rem 0 0 0;
+    }
+      
 }
 
 
