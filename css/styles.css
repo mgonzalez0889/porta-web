@@ -178,6 +178,19 @@ img {
     font-size: 1.7rem;
 }
 
+@media (min-width: 992px) { 
+    .menu--right {
+        display: none;
+    }
+
+    .navegacion {
+        display: flex;
+        gap: 3rem;
+        
+    }
+      
+}
+
 
 .navegacion__link:hover {
     color: var(--secundario);
