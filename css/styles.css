@@ -3,6 +3,7 @@
     --secundario: #4b43be;
     --tertiary: #F2F2F2;
     --fuentePrincipal: 'Open Sans';
+    --fuenteSecundaria: 'Monarcha-Bold'; src: url('../fonts/Monarcha-Bold.ttf');
     --blanco: #fff;
     --machingray: #565D6A;
 }
